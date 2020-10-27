@@ -1,0 +1,172 @@
+body{
+    height: auto;
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 20px;
+    border-width: 4px;
+    border-style: groove;
+    border-color: #00313B;
+    border-image: initial;
+    background: linear-gradient( #1B5E55, #00313B);
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.9; 
+}
+
+.menu li {
+    display: inline-block;
+    padding-top: 1%;
+}
+
+.menu_button {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu_button:hover {
+    color:cadetblue;
+}
+.titre {
+    color:#1B5E55;
+    text-shadow: #00313B 6px 6px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 120px;
+    opacity: 0.9;
+}
+.parallax {
+    background-image: url(plage-de-grande-anse-ile-de-la-reunion-©-frog-974-fotolia-com.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.parallax_1 {
+    background-image: url(reunion-plage-saint-leu.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.texte {
+    text-align: center;
+    padding-top: 15%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 30px;
+    height: 700px;
+    width: 100%;
+    color: white;
+}
+.intro {
+    height: auto;
+    font-size: 36px;
+    background-color: #1B5E55;
+    opacity: 0.9;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #00313B;
+    border-image: initial;
+    border-radius: 8px;
+}
+.parallax_2 {
+    background-image: url(lagonvueduciel45-creditirt-sergegelabertdts122015.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
+
+ul {
+    margin: 0 0 1.5em;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+.img_caroussel {
+    height: 230px;
+    width: 292px;
+    margin-bottom: .5em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+main {
+    padding: 1em 2em;
+    margin: auto;
+    padding-top: 15%;
+    padding-right: 10%;
+    padding-left: 12%;
+}
+
+.card {
+    border: 4px solid #00313B;
+    border-radius: 8px;
+    padding: 1em;
+    background-color: #1B5E55;
+    opacity: 0.9;
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1em 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 1 0 250px;
+    margin-left: 1em;
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3d4852;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #1B5E55;
+    opacity: 0.9;
+}

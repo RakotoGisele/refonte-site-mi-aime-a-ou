@@ -1,0 +1,159 @@
+body {
+    background: url(ingredients.jpg);
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    justify-content:space-evenly;
+    border-width: 4px;
+    border-style: groove;
+    border-color: #00313B;
+    border-image: initial;
+    background: linear-gradient(#00313B, #1B5E55);
+    
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.9;
+    font-size: 1.25em;
+}
+.menu li {
+    display: inline-block;
+    padding-top: 1%;
+}
+.menu_button {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu_button:hover {
+    color:cadetblue;
+}
+.titre {
+    font-size: 40px;
+    color: #1B5E55;
+    text-shadow: #00313B 3px 3px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titre {
+    animation-duration: 5s;
+    animation-name: glissement;
+    animation-iteration-count: none;
+}
+.titre {
+    animation-direction: normal;
+}
+@keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+}
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+}
+}
+.enveloppe{
+    display: grid;
+    grid-template-columns: (3, 5fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-top: 3%;
+    padding-bottom: 4%;
+    animation-duration: 3s;
+        animation-name: slidein;
+      }
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%; 
+        }
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+    
+}
+.description {
+    text-align: center;
+}
+.ingredients {
+    grid-column: 1;
+    grid-row: 1 / 2;
+    background: linear-gradient(#00313B, #1B5E55);
+    opacity: 0.9;
+    text-shadow: black 0.2em 0.2em 0.4em;
+    border: 4px solid #00313B;
+    color: white;
+    margin-left: 2%;
+}
+.quatre {
+    padding-left: 16%;
+}
+.accompagnement {
+    grid-column: 1 / 2;
+    grid-row: 2;
+    background: linear-gradient(#00313B, #1B5E55);
+    opacity: 0.9;
+    text-shadow: black 0.2em 0.2em 0.4em;
+    border: 4px solid #00313B;
+    color: white;
+    margin-left: 2%;
+    text-align: center;
+}
+.prepa {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    background: linear-gradient(#00313B, #1B5E55);
+    opacity: 0.9;
+    text-shadow: black 0.2em 0.2em 0.4em;
+    border: 4px solid #00313B;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.servir {
+    grid-column: 3;
+    grid-row: 1 / 2;
+    background: linear-gradient(#00313B, #1B5E55);
+    opacity: 0.9;
+    text-shadow: black 0.2em 0.2em 0.4em;
+    border: 4px solid #00313B;
+    color: white;
+    margin-right: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.info_cari { 
+    grid-column: 3 ;
+    grid-row: 2 / 3;
+    background: linear-gradient(#00313B, #1B5E55);
+    opacity: 0.9;
+    text-shadow: black 0.2em 0.2em 0.4em;
+    border: 4px solid #00313B;
+    color: white;
+    margin-right: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: #1B5E55;
+    opacity: 0.9;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
